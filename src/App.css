@@ -1,0 +1,35 @@
+body { 
+  margin: 0; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.navbar, .navbar > ul { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw; 
+}
+
+.navbar > ul { 
+  justify-content: space-around; 
+  list-style: none; 
+}
+
+li{
+  list-style: none;
+  
+}
+
+ul{
+  text-decoration: none;
+
+}
+
+
+header{
+  height: 100vh;
+  width: 100vw;
+  background-color: cornflowerblue;
+}
