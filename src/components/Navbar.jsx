@@ -5,13 +5,13 @@ export default function Navbar (){
         <nav className="navbar">
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link className="link-style" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link className="link-style" to="/about">About</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link className="link-style" to="/contact">Contact</Link>
                 </li>
             </ul>
             <hr/>
