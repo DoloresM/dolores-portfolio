@@ -1,4 +1,5 @@
 import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 const Summary = () => {
     return (
         <>
@@ -44,6 +45,7 @@ Education and Certifications:
 If relevant, mention any degrees, certifications, or training related to web development.
 
         </p>
+<Footer/>
                             
     </>
     )

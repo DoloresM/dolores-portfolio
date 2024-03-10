@@ -3,6 +3,9 @@ import {Link} from "react-router-dom";
 export default function Navbar (){
     return(
         <nav className="navbar">
+            <div className="logo">
+                <span>DM</span> 
+            </div>
             <ul>
                 <li>
                     <Link className="link-style" to="/">Home</Link>
