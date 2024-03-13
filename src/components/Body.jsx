@@ -5,38 +5,52 @@ import {faJs, faHtml5,faCss3Alt,faNode,faReact,faJava,faGithub } from "@fortawes
 
 const Body = ()=>{
     return(
-        <div >
+    <div >
         <div className="technology">
-        <h3 className="subject">Tech Stack</h3>
-        <FontAwesomeIcon className="fa-icon" icon={faJs}  />
-        <FontAwesomeIcon className="fa-icon" icon={faHtml5} />
-        <FontAwesomeIcon className="fa-icon" icon={faCss3Alt}  />
-        <FontAwesomeIcon className="fa-icon" icon={faNode} />
-        <FontAwesomeIcon className="fa-icon" icon={faReact}  />
-        <FontAwesomeIcon className="fa-icon" icon={faJava}  />
-        <FontAwesomeIcon className="fa-icon" icon={faGithub}  />
-        <FontAwesomeIcon className="fa-icon" icon={faDatabase}  />
+            <h3 className="subject">Tech Stack</h3>
+            <FontAwesomeIcon className="fa-icon" icon={faJs}  />
+            <FontAwesomeIcon className="fa-icon" icon={faHtml5} />
+            <FontAwesomeIcon className="fa-icon" icon={faCss3Alt}  />
+            <FontAwesomeIcon className="fa-icon" icon={faNode} />
+            <FontAwesomeIcon className="fa-icon" icon={faReact}  />
+            <FontAwesomeIcon className="fa-icon" icon={faJava}  />
+            <FontAwesomeIcon className="fa-icon" icon={faGithub}  />
+            <FontAwesomeIcon className="fa-icon" icon={faDatabase}  />
         </div>
-        <div className="project-section">
         <h3 className="subject">Projects</h3>
-        <div className="projects">
-            1
+        <div className="project-section">
+                <div className="projects" > 
+                        <div className="project-container">
+                        
+                            <section>
+                                <img src="https://images.unsplash.com/photo-1631864032962-950ceb71ba9a?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image of users using blockchain application" />
+                            </section>
+                            <section>
+                                <h4>Featured Project</h4>
+                                <h5>Blockchain App</h5>
+                                <p> Crypocurrency manger for users to view the change in prices of various protocols over time </p>
+                            </section>
+                        </div>
+                    
+                </div>
+                <div className="projects">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1612226500735-66681fec4a56?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="plate of grilled produce" />
+                        <h4>Featured Project</h4>
+                        <h5>Hack My Plate</h5>
+                        <p>Receipe website for people exploring vegan dishes</p>
+                    </figure>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1661110653586-de36551191bd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a room in the Met Museum" />
+                        <h4>Featured Project</h4>
+                        <h5>Meet the Met</h5>
+                        <p>Full stack application leveraging The Met's
+                         API to give user's a preview of the museum via an online experience.</p>
+                    </figure>
+                </div>
+         
         </div>
-        <div className="projects">
-            <div>3</div>
-            <div>3</div>
-        </div>
-        
-        
-      
-     
-    
-     
-
-
-  
-        </div>
-        </div>
+    </div>
     )
 }
 

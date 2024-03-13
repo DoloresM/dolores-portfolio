@@ -164,18 +164,57 @@ color: gray;
 }
 
 .project-section{
-  height: 75vh;
+ 
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  padding: 0 8em;
 }
 
 .projects{
   display: flex;
   flex-direction: row;
-  /* min-height: 30vh;
-  color: black; */
+   max-height: 60vh;
+   background-color: bisque;
+   width: 100%;
+   margin-bottom: 5em;
+}
+
+.projects h5{
+  color:white;
 
 }
+
+.projects section{
+  width: 50%;
+  margin: 0 1.5em ;
+  background-color: #FF7A59;
+}
+
+.projects figure{
+  width: 50%;
+  margin: 0 1.5em;
+}
+
+.projects .project-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1.5em 0
+}
+
+.projects section img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.projects figure img{
+  max-width: 100%;
+  max-height: 70%;
+}
+
+
+
 
 footer{
   background-color: black;
