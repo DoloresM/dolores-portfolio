@@ -5,7 +5,7 @@ import Footer from "./Footer.jsx";
 const Summary = () => {
     return (
         <div className="container full-screen">
-          <h2>Journey of a Programmer</h2>
+          <h1>Journey of a Programmer</h1>
           <div className="content">
             <p>
                 Introduction and Background:

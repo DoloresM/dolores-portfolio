@@ -4,8 +4,8 @@ const Blog = ()=>{
     return(
         <div>
             <Navbar/>
-            <div className="full-screen">
-            <h3>Thoughts on Tech . . . </h3>
+            <div className="container full-screen">
+            <h1>Thoughts on Tech . . . </h1>
             </div>
             <Footer/>
         </div>

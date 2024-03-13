@@ -35,17 +35,21 @@ const Body = ()=>{
                 </div>
                 <div className="projects">
                     <figure>
-                        <img src="https://images.unsplash.com/photo-1612226500735-66681fec4a56?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="plate of grilled produce" />
-                        <h4>Featured Project</h4>
-                        <h5>Hack My Plate</h5>
-                        <p>Receipe website for people exploring vegan dishes</p>
+                        <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=2790&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="plate of grilled produce" />
+                        <figcaption>
+                            <h4>Featured Project</h4>
+                            <h5>Hack My Plate</h5>
+                            <p>Receipe website for people exploring vegan dishes</p>
+                        </figcaption>
                     </figure>
                     <figure>
-                        <img src="https://images.unsplash.com/photo-1661110653586-de36551191bd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a room in the Met Museum" />
-                        <h4>Featured Project</h4>
-                        <h5>Meet the Met</h5>
-                        <p>Full stack application leveraging The Met's
-                         API to give user's a preview of the museum via an online experience.</p>
+                        <img src="https://images.unsplash.com/photo-1583306346437-f2143c0f11fc?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="a room in the Met Museum" />
+                        <figcaption>
+                            <h4>Featured Project</h4>
+                            <h5>Meet the Met</h5>
+                            <p>Full stack application leveraging The Met's
+                            API to give user's a preview of the museum via an online experience.</p>
+                        </figcaption>
                     </figure>
                 </div>
          

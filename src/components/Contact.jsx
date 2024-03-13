@@ -11,7 +11,7 @@ const {phone, email} = props;
         <div >
             <Navbar/>
             <div className="container full-screen">
-                <h2>Contact Me</h2>
+                <h1>Contact Me</h1>
                 <div className="content">
                     <p>Get in touch with us for any queries or feedback.</p>
                     <p>Here is my business phone number: {phone}</p>
