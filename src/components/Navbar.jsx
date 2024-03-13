@@ -4,7 +4,7 @@ export default function Navbar (){
     return(
         <nav className="navbar container">
             <div className="logo">
-                <span>DM</span> 
+                <span>DM</span>
             </div>
             <ul>
                 <li>

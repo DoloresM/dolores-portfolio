@@ -1,23 +1,32 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faEnvelope,faUser}  from '@fortawesome/free-solid-svg-icons';
-import {faJs, faHtml5,faCss3Alt,faNode,faReact,faJava} from "@fortawesome/free-brands-svg-icons";
+import { faCoffee, faDatabase, faEnvelope,faUser}  from '@fortawesome/free-solid-svg-icons';
+import {faJs, faHtml5,faCss3Alt,faNode,faReact,faJava,faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 const Body = ()=>{
     return(
-        <div className="container">
+        <div >
         <div className="technology">
-        <h3>Tech Stack</h3>
-        <FontAwesomeIcon icon={faJs} size="lg" />
-        <FontAwesomeIcon icon={faHtml5} size="lg"/>
-        <FontAwesomeIcon icon={faCss3Alt} size="lg" />
-        <FontAwesomeIcon icon={faNode}  size="lg"/>
-        <FontAwesomeIcon icon={faReact} size="lg" />
-        <FontAwesomeIcon icon={faJava} />
-
+        <h3 className="subject">Tech Stack</h3>
+        <FontAwesomeIcon className="fa-icon" icon={faJs}  />
+        <FontAwesomeIcon className="fa-icon" icon={faHtml5} />
+        <FontAwesomeIcon className="fa-icon" icon={faCss3Alt}  />
+        <FontAwesomeIcon className="fa-icon" icon={faNode} />
+        <FontAwesomeIcon className="fa-icon" icon={faReact}  />
+        <FontAwesomeIcon className="fa-icon" icon={faJava}  />
+        <FontAwesomeIcon className="fa-icon" icon={faGithub}  />
+        <FontAwesomeIcon className="fa-icon" icon={faDatabase}  />
+        </div>
+        <div className="project-section">
+        <h3 className="subject">Projects</h3>
+        <div className="projects">
+            1
         </div>
         <div className="projects">
-        <h3>Projects</h3>
+            <div>3</div>
+            <div>3</div>
+        </div>
+        
         
       
      
