@@ -2,7 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+.container{
+padding: 0 2em;
+}
 body { 
   margin: 0; 
   display: flex; 
@@ -65,22 +67,26 @@ li{
 .link-style{
   text-decoration: none;
 
-
 }
 
 hr{
   margin:0;
 }
 
-
-
-
-header{
+.full-screen{
   height: 91vh;
   width: 100vw;
-
-  display: flex;
+  background-color: orange;
+  
 }
+
+.content{
+  padding: 10em 3em;
+  display: flex; 
+}
+
+
+
 
 .sub-header{
 flex-direction: column;
@@ -113,11 +119,11 @@ width: 50vw;
 
 .sub-header:first-child{
 color: gray;
-padding: 10em 3em;
+
 }
 
 .sub-header:last-child{
-  padding: 10em 3em;
+
 }
 
 .sub-header img{
@@ -140,4 +146,6 @@ footer{
   background-color: black;
   color: whitesmoke;
   text-align: center;
+  height: 10vh;
+  padding: 2em;
 }

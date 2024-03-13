@@ -8,16 +8,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Contact = (props) => {
 const {phone, email} = props;
     return (
-        <div>
+        <div >
             <Navbar/>
-            <h2>Contact Us</h2>
-            <p>Get in touch with us for any queries or feedback.</p>
-            <p>Here is my business phone number: {phone}</p>
-            <p>Here is my email: {email}</p>
-            <FontAwesomeIcon icon={faLinkedin} size="lg" />
-            <FontAwesomeIcon icon={faEnvelope} />
-            <FontAwesomeIcon icon={faSquareTwitter} />
-        <Footer/>
+            <div className="container full-screen">
+                <h2>Contact Me</h2>
+                <div className="content">
+                    <p>Get in touch with us for any queries or feedback.</p>
+                    <p>Here is my business phone number: {phone}</p>
+                    <p>Here is my email: {email}</p>
+                    <FontAwesomeIcon icon={faLinkedin} size="lg" />
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    <FontAwesomeIcon icon={faSquareTwitter} />
+                </div>
+            </div>
+            <Footer/>
         </div>
     );
 };
