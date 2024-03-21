@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One&family=Poppins');
+
+
+
+:root {
+  --main-color: #D97059;
+  --accent-color: #D9483B;
+  --neutral-color: #F2AFA0;
+  --background: #F2F2F2; 
+  --header-font: font-family: "Abril", Fatface;
+  --content-font: font-family: "Poppins", sans-serif;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -9,6 +23,10 @@ padding: 0 2em;
 body { 
   margin: 0; 
   background-color: #f7f7f4 ;
+}
+
+p{
+  font-family: Poppins;
 }
 
 .navbar{
@@ -111,8 +129,18 @@ flex-direction: column;
 width: 50vw;
 }
 
+
+/* FONT */
+/* font-family: "Nixie One", system-ui;
+font-weight: 400;
+font-style: normal; */
+
+
 .sub-header h1{
   font-size: 4rem;
+  font-family: "Abril", Fatface;
+  font-weight: 600;
+
 }
 
 .full-screen h2{
@@ -122,6 +150,7 @@ width: 50vw;
 .sub-header p{
   margin-top: 6em;
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .sub-header button{
