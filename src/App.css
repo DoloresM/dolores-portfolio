@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One&family=Poppins');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One&family=Poppins'); 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans');
 
 
 
@@ -8,8 +9,8 @@
   --accent-color: #D9483B;
   --neutral-color: #F2AFA0;
   --background: #F2F2F2; 
-  --header-font: font-family: "Abril", Fatface;
-  --content-font: font-family: "Poppins", sans-serif;
+  --header-font: "DM Sans", sans-serif;
+  --content-font: "Poppins", sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,13 +21,22 @@
 .container{
 padding: 0 2em;
 }
+
 body { 
   margin: 0; 
-  background-color: #f7f7f4 ;
+  background-color: var(--background);
+}
+
+h1, h2{
+  font-size: 4rem;
+   font-family: var(--header-font);
+  font-weight: 450;
+  color: var(--accent-color);
 }
 
 p{
-  font-family: Poppins;
+  font-family: "Open Sans", sans-serif;
+  font-family: var( --content-font);
 }
 
 .navbar{
@@ -42,8 +52,8 @@ flex-direction: row;
 
 
  .navbar .logo{
-  background-color: #FF7A59;
-  padding: 1.2em;
+  background-color: var(   --main-color);
+  padding: 1em 1em 1em .8em;
   min-height: 100px;
   min-width: 100px;
   max-width: 100px;
@@ -52,16 +62,10 @@ flex-direction: row;
   display: inline-block;
   text-align: center;
   resize: none;
-  margin-right: 40%;
+  margin-right: 60%;
   vertical-align:bottom;
-  font-size: 27px;
+  font-size: 32px;
  }
-
-
-
- 
-
-
 
 .navbar  ul { 
   list-style: none; 
@@ -73,15 +77,13 @@ flex-direction: row;
 }
 
 li{
-  background: white;
   height: 50%;
   margin-top: 1em;
-  padding: .5em;
+  padding: 1em .5em .5em .5em;
   vertical-align: center;
   list-style: none;
   text-decoration: none;
   margin-right: 2rem;
-  border-radius: 12px;
   cursor: pointer;
   transition-property: border transform;
   transition-duration: 0.3s;
@@ -94,12 +96,11 @@ li{
 
 .link-style{
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: black;
 
 }
 
-hr{
-  margin:0;
-}
 
 .full-screen{
   height: 78vh;
@@ -112,17 +113,12 @@ hr{
   display: flex; 
 }
 
-.container h1{
-  font-size: 4rem;
-}
+
 
 .container p{
   font-size: 20px;
 
 }
-
-
-
 
 .sub-header{
 flex-direction: column;
@@ -130,17 +126,9 @@ width: 50vw;
 }
 
 
-/* FONT */
-/* font-family: "Nixie One", system-ui;
-font-weight: 400;
-font-style: normal; */
-
-
 .sub-header h1{
   font-size: 4rem;
-  font-family: "Abril", Fatface;
   font-weight: 600;
-
 }
 
 .full-screen h2{
@@ -168,9 +156,6 @@ color: gray;
 
 }
 
-.sub-header:last-child{
-
-}
 
 .sub-header img{
  border-radius: 30px;
@@ -257,9 +242,6 @@ color: gray;
   max-width: 70%;
   background-color: bisque;
 }
-
-
-
 
 footer{
   background-color: black;
