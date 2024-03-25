@@ -3,8 +3,11 @@ const Header =()=>{
         <header className="container full-screen">
         <div className="content">
         <div className="sub-header ">
-            <h1>Programmer</h1>
-            <h2>Innovating Business Solutions</h2>
+            <div className="headings">
+                <h1>Hi, I'm Dolores-Mai</h1>
+                <h2> a programmer, passionate about innovating business solutions, based in Newark, NJ</h2>
+            </div>
+
             <div>
                 <p>Vestibulum scelerisque augue at leo facilisis</p>
                 <button>Let's Connect!</button>
