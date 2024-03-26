@@ -89,20 +89,22 @@ flex-direction: row;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  transition-property: border transform;
+  transition-property: transform;
   transition-duration: 0.3s;
   &:hover{
     transform: scale(1.1);
-    color: blue;
   }
- 
 }
+
+
 
 .link-style{
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   color: black;
-
+  &:hover{
+    color: blue;
+  }
 }
 
 
@@ -282,4 +284,33 @@ footer{
   text-align: center;
   height: 10vh;
   padding: 2em;
+}
+
+/* CONTACT PAGE */
+
+.contact-form{
+  border: 1px solid blue;
+  width: 50%;
+  height: 400px;
+background-color: whitesmoke;
+  flex-direction: column;
+  text-align: center;
+margin: 0 auto;
+  padding: 4em 0;
+}
+
+.contact-form, input{
+  /* border: 1px solid black; */
+  border-radius: 6px;
+  height: 7vh;
+  font-size: 18px;
+  padding-left: 1em;
+}
+
+.form-info{
+  margin-bottom: 1em;
+}
+
+textarea{
+  max-width: 100%;
 }

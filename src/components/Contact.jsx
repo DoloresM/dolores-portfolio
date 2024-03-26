@@ -1,5 +1,6 @@
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
+import Form from "./Form.jsx";
 import {faLinkedin, faSquareTwitter} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +11,8 @@ const {phone, email} = props;
     return (
         <div >
             <Navbar/>
-            <div className="container full-screen">
+           
+            <div className="container full-screen ">
                 <h1>Contact Me</h1>
                 <div className="content">
                     <p>Get in touch with us for any queries or feedback.</p>
@@ -21,6 +23,7 @@ const {phone, email} = props;
                     <FontAwesomeIcon icon={faSquareTwitter} />
                 </div>
             </div>
+            <Form/>
             <Footer/>
         </div>
     );
