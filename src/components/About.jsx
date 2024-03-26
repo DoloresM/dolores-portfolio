@@ -6,8 +6,14 @@ const Summary = () => {
     return (
         <div className="container full-screen">
           <h1>Journey of a Programmer</h1>
-          <div className="content">
-            <p>
+          <div className="">
+            <p>Software Engineer with a background in behavior analysis.</p>
+            <p>Interested in opportunities to bridge computational thinking and cognitive science within the finance sector. </p>
+            <p>Passionate about blockchain, UX research, accessibility, and blockchain technologies.</p>
+
+                
+
+            {/* <p>
                 Introduction and Background:
 
                 Briefly introduce yourself and your team (if applicable). Mention your name, role, and perhaps a bit about your background in web development.
@@ -46,7 +52,7 @@ const Summary = () => {
                 Education and Certifications:
 
                 If relevant, mention any degrees, certifications, or training related to web development.
-            </p>
+            </p> */}
         </div>                    
     </div>
     )

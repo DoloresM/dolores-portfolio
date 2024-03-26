@@ -170,7 +170,7 @@ color: gray;
 
 .headings{
   animation: headings 4s both;
-  text-align:center;
+  /* text-align:center; */
 
 }
 h1:first-child{
@@ -192,11 +192,29 @@ h1:first-child{
     opacity: 0;
   }
   50% { 
-    transform: translateY(100%) scale(1.5);
+    transform: translateX(10%) scale(1);
   }
   to{
     transform: none;
   }
+}
+
+.header{
+  margin-bottom: 5.5em;
+}
+
+.scroll-down{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+ margin: 0 auto;
+ padding: .72em;
+}
+
+.scroll-down span{
+  font-size: 20px;
+ 
 }
 
 .subject{
@@ -219,8 +237,20 @@ h1:first-child{
 
 }
 
+.contact-container{
+  padding-top: 7em;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3em;
+}
+
+.fa-contact{
+  font-size: 25px;
+  margin: .5em;
+  color: darkcyan;
+}
+
 .project-section{
- 
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -288,29 +318,41 @@ footer{
 
 /* CONTACT PAGE */
 
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-form{
   border: 1px solid blue;
-  width: 50%;
+
   height: 400px;
 background-color: whitesmoke;
   flex-direction: column;
-  text-align: center;
-margin: 0 auto;
-  padding: 4em 0;
+/* margin: 0 auto; */
+  padding: 4em;
+  border-radius: 6px;
+  font-size: 18px;
 }
 
-.contact-form, input{
-  /* border: 1px solid black; */
+
+input{
+  border: 1px solid black;
   border-radius: 6px;
   height: 7vh;
-  font-size: 18px;
   padding-left: 1em;
+  /* max-width: 100%; */
+}
+.email{
+margin-left: 2em;
 }
 
 .form-info{
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
 }
 
 textarea{
-  max-width: 100%;
+  /* max-width: 100%; */
 }
